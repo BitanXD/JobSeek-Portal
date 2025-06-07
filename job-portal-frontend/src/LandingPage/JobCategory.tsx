@@ -7,13 +7,13 @@ const JobCategory = () => {
       <div className="text-lg text-mine-shaft-300 text-center w-1/2 mx-auto">
         Explore diverse job opportunities tailored to your skills. Start your career joruney today!
       </div>
-      <div>
-        <div>
-            <img src="/Category/Digital Marketing.png" alt="" />
+      <div className="flex flex-col items-center w-64">
+        <div className="p-2 bg-bright-sun-300 rounded-full">
+            <img className="h-8 w-8" src="/Category/Digital Marketing.png" alt="" />
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="text-mine-shaft-100 text-xl font-semibold">Digital Marketting.</div>
+        <div className="text-sm text-center text-mine-shaft-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ipsa.</div>
+        <div className="text-bright-sun-300 text-lg">1K+ new jobs posted</div>
       </div>
     </div>
   );
