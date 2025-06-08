@@ -62,13 +62,13 @@ In Progess
 
 
 ## Frontend Setup
-# Navigate to the frontend directory
+### Navigate to the frontend directory
 cd frontend
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start the development server
+### Start the development server
 npm run dev
 
 
