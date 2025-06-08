@@ -33,7 +33,7 @@ const DreamJob = () => {
       </div>
       <div className="w-[55%] flex items-center justify-center">
         <div className="w-[30rem] relative">
-          <img src="boy.png" alt="boy.png" />
+          <img src="Boy.png" alt="boy.png" />
           <div className="w-fit border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md top-[50%] -right-10 absolute">
             <div className="text-center mb-1 text-sm text-mine-shaft-100 ">10K+ got jobs</div>
             <Avatar.Group>
