@@ -1,3 +1,4 @@
+import { Avatar } from '@mantine/core';
 import {work } from '../Data/Data'
 const Working = () => {
   return (
@@ -9,8 +10,13 @@ const Working = () => {
         Effortlessly navigate through the process and land your dream job.
       </div>
       <div className="flex px-16 justify-between items-center">
-        <div className="">
+        <div className="relative">
           <img className="w-[30rem]" src="/Working/Girl.png" alt="girl" />
+          <div className='w-36 flex flex-col items-center gap-1 border border-bright-sun-400 rounded-xl py-3 px-1 backdrop-blur-md top-[10%] right-0 absolute'>
+            <Avatar className='!h-16 !w-16' src="avatar1.png" alt="it's me" />
+            <div className='text-sm text-mine-shaft-200 font-semibold text-center'>Complete your Profile</div>
+            <div className='text-xs text-mine-shaft-300 text-center'>70% Completed</div>
+          </div>
         </div>
         <div className="flex flex-col gap-10">
           {work.map((item, index) => (
